@@ -1,4 +1,4 @@
-'Using workbook using sheet name....
+'Using worksheet name to identify workbook
 
 Public Function fileNamesfunc(filename1 As String) As Boolean
 
