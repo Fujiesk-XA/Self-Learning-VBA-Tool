@@ -1,6 +1,7 @@
 Public Function targetLotSize(descriptionTar As String) As Double
 
 'Return Split Text Sample: Material Number /Name/ 300 / 75
+'Name might include / as well
 
   Dim LArray() As String
   Dim iiii As Integer
