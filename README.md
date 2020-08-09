@@ -1,4 +1,4 @@
 # Self-Learning-VBA-Tool
 VBA Tools
 
-Amateur tools for basic needs
+A collection of tools design for Manufacuting Data Analysis
