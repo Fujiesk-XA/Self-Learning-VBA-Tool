@@ -1,6 +1,7 @@
 Public Function targetLotSize(descriptionTar As String) As Double
 
-'Return Split Text Sample: Material Number /Name/ 300 / 75
+'Lot Size is the middle number
+'Return Split Text Sample: Material Number /Name/ 230 / 75
 'Name might include / as well
 
   Dim LArray() As String
@@ -13,7 +14,7 @@ Public Function targetLotSize(descriptionTar As String) As Double
       if iiii > 4 then
         i = 0
         Do while i=iiii
-          if LArray(i) < 4000000 And LArray(i) > 400  then 
+          if LArray(i) < 4000000 And LArray(i) > 229  then 
             targetLotSize = LArray(i)
             Exit Loop
           End if
