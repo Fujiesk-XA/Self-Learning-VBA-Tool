@@ -1,4 +1,4 @@
-Public Function add_preferment(ByVal tMixTime As Date, ByVal sPreferment As String, ByVal dQty As Double, ByVal sproductName As String) As Boolean
+Public Function add_Starter(ByVal tMixTime As Date, ByVal sPreferment As String, ByVal dQty As Double, ByVal sproductName As String) As Boolean
     On Error GoTo errHandle
     Dim intRow As Integer
     Dim intBlanks As Integer
@@ -41,7 +41,7 @@ Public Function add_preferment(ByVal tMixTime As Date, ByVal sPreferment As Stri
                     Worksheets(SHEET_DATA).Cells(intRow, 15) = Worksheets(SHEET_DATA).Cells(intRow, 15) & ", " & _
                             FormatDateTime(tMixTime, vbShortTime) & " - " & sDoughName
                 End If
-                add_preferment = True
+                add_Starter = True
                 Exit Do
             End If
             
